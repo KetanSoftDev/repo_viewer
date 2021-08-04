@@ -5,13 +5,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  int ff(int a, int b) {
-    return a + b;
-  }
-
   @override
   Widget build(BuildContext context) {
-    print(ff(2, 5));
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
